@@ -22,7 +22,7 @@ document.querySelector('.section_04__gallery').onclick = (e) => {
     /* Validamos el click y si es verdadero procede*/
     imageName ?     
         basicLightbox.create(`
-        <img src="../assets/images/${imageName}.jpg">
+        <img src="assets/images/${imageName}.jpg">
     `).show()
     :
     console.log('falso');
