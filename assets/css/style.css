@@ -650,7 +650,7 @@ h3{
     transform: translateX(-300px);
     transition: transform 0.25s ease-in;
 
-    position: absolute; 
+    position: fixed; 
     top: 0;
     z-index: 9;
 }

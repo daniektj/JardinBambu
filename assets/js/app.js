@@ -42,7 +42,7 @@ boton.onclick = () => {
   slide.style.setProperty('transform', `translateX(-300px)`);
 
   numero ? 
-  boton.style.setProperty('background-image', `url('../images/mobile-menu-open.svg')`) :
-  boton.style.setProperty('background-image', `url('../images/mobile-menu-open.svg')`);
+  boton.style.setProperty('background-image', `url('./images/mobile-menu-open.svg')`) :
+  boton.style.setProperty('background-image', `url('./images/mobile-menu-open.svg')`);
   
 }
