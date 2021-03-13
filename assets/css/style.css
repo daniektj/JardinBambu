@@ -667,7 +667,7 @@ h3{
     border: 1px pink solid;
     outline: none;
 
-    position: absolute;  
+    position: fixed;  
     top: 20px;
     right: 50px;
 
