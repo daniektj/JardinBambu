@@ -99,7 +99,7 @@ header{
 }
 
 .header_container img{
-    width: 125px
+    width: 125px;
 }
 
 .header_menu{
@@ -481,7 +481,19 @@ body::-webkit-scrollbar {
 @media (max-width: 480px) {
 
     header{
-    display: none;
+        height: 60px;
+        /* border: 1px red solid; */
+        background: var(--black);
+
+        align-items: center;
+    }
+
+    .header_menu a{
+        display: none;
+    }
+
+    .header_container img{
+        width: 90px;
     }
 
     h2{
@@ -496,6 +508,10 @@ body::-webkit-scrollbar {
     max-height: 50vh;
     box-sizing: border-box;
     /* border: 1px red solid; */
+    }
+
+    .slide{
+        margin-top: 0px;
     }
 
     .oval{
@@ -641,16 +657,16 @@ h3{
 
 .cuadro{
     display: block;
-    width: 300px;
+    width: 250px;
     height: 100vh;
     background-color:#ffe672;
     display: flex;
     align-items: center;
 
-    transform: translateX(-300px);
+    transform: translateX(-250px);
     transition: transform 0.25s ease-in;
 
-    position: fixed; 
+    position: absolute; 
     top: 0;
     z-index: 9;
 }
@@ -664,12 +680,12 @@ h3{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px transparent solid;
+    border: 0px transparent solid;
     outline: none;
 
-    position: fixed;  
+/*     position: absolute;  
     top: 20px;
-    right: 50px;
+    right: 50px; */
 
     z-index: 4;
 }
