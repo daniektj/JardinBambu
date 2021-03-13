@@ -39,10 +39,10 @@ boton.onclick = () => {
 
   numero ? 
   slide.style.setProperty('transform', `translateX(0px)`) :
-  slide.style.setProperty('transform', `translateX(-200px)`);
+  slide.style.setProperty('transform', `translateX(-300px)`);
 
   numero ? 
-  boton.style.setProperty('background-image', `url('../images/mobile-menu-close.svg')`) :
+  boton.style.setProperty('background-image', `url('../images/mobile-menu-open.svg')`) :
   boton.style.setProperty('background-image', `url('../images/mobile-menu-open.svg')`);
   
 }

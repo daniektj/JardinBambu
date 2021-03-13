@@ -641,13 +641,13 @@ h3{
 
 .cuadro{
     display: block;
-    width: 200px;
+    width: 300px;
     height: 100vh;
     background-color:#ffe672;
     display: flex;
     align-items: center;
 
-    transform: translateX(-200px);
+    transform: translateX(-300px);
     transition: transform 0.25s ease-in;
 
     position: absolute; 
