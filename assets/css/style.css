@@ -664,7 +664,7 @@ h3{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px pink solid;
+    border: 1px transparent solid;
     outline: none;
 
     position: fixed;  

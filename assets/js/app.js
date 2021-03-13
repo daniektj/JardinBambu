@@ -43,6 +43,6 @@ boton.onclick = () => {
 
   numero ? 
   boton.style.setProperty('background-image', `url('assets/images/mobile-menu-open.svg')`) :
-  boton.style.setProperty('background-image', `url('./images/mobile-menu-open.svg')`);
+  boton.style.setProperty('background-image', `url('assets/images/mobile-menu-open.svg')`);
   
 }
