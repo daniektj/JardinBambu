@@ -263,22 +263,23 @@ header{
 
 .--paquetes_price{
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--green);
     margin-bottom: 15px;
 }
 
 .--paquetes_details{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
-    color: var(--black);
-    padding: 8px 40px;
+    background: var(--black);
+    color: var(--white);
+    padding: 8px 30px;
     border: 2px var(--black) solid;
 }
 .--paquetes_details:hover{
-    background: var(--black);
-    color: var(--white);
+    background: var(--white);
+    color: var(--dark);
     transition: background .2s ease-in;
 }
 
@@ -458,8 +459,18 @@ body::-webkit-scrollbar {
 
 
 
+/* ---------- MOBILE MENU ---------- */
 
+.cuadro{
+    display: none;
+}
 
+.boton{
+    display: none;
+}
+.elh2{
+    display: none;
+}
 
 
 
@@ -620,6 +631,58 @@ h3{
 .back_to_home{
     display: none;
 }
+
+
+
+
+
+
+/* ---------- MOBILE MENU ---------- */
+
+.cuadro{
+    display: block;
+    width: 200px;
+    height: 100vh;
+    background-color:#ffe672;
+    display: flex;
+    align-items: center;
+
+    transform: translateX(-200px);
+    transition: transform 0.25s ease-in;
+
+    position: absolute; 
+    top: 0;
+    z-index: 9;
+}
+
+.boton{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    background-image: url('../images/mobile-menu-open.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px red solid; */
+    outline: none;
+
+    position: absolute;  
+    top: 20px;
+    right: 50px;
+
+    z-index: 4;
+}
+
+.elh2{
+    display: block;
+    color: black;
+}
+
+
+
+
+
 
 
 /* FIN DEL BREAKPOINT */
