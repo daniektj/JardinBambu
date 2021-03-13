@@ -679,8 +679,8 @@ h3{
 
 .boton{
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     background-color: transparent;
     background-image: url('../images/mobile-menu-open.svg');
     background-position: center center;
