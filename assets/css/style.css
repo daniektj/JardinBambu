@@ -494,6 +494,15 @@ body::-webkit-scrollbar {
         display: none;
     }
 
+
+    .header_menu_mobile a{
+        color: var(--black);
+        margin: 0px 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
     .header_container img{
         width: 90px;
     }
@@ -688,6 +697,7 @@ h3{
     background-size: cover;
     border: 0px transparent solid;
     outline: none;
+    cursor: pointer;
 
 /*     position: fixed;  
     top: 20px;
