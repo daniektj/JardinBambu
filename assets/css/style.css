@@ -478,7 +478,7 @@ body::-webkit-scrollbar {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 1025px) {
 
     header{
         height: 60px;
@@ -603,7 +603,7 @@ body::-webkit-scrollbar {
 .section_03__container{
     width: 80vw;
     margin: 40px 0;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .section_03__left{
@@ -724,5 +724,18 @@ h3{
 /* FIN DEL BREAKPOINT */
 /* FIN DEL BREAKPOINT */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
