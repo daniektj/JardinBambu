@@ -517,7 +517,7 @@ body::-webkit-scrollbar {
     .section_01{
         
     width: 100vw;
-    max-height: 80vh;
+    max-height: 85vh;
     box-sizing: border-box;
     /* border: 1px red solid; */
     }
@@ -533,7 +533,7 @@ body::-webkit-scrollbar {
     }
 
     .swiper-container {
-        max-height: 80vh;
+        max-height: 85vh;
         /* border: 2px red solid; */
     }
 
@@ -657,6 +657,8 @@ h3{
 
 
 .back_to_home{
+    right: 30px;
+    bottom: 30px;
     /* display: none; */
 }
 
