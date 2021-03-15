@@ -178,6 +178,8 @@ header{
 
 .swiper-slide img{
     width: 100%;
+    object-fit: cover;
+    border: 1px red solid;
 }
 
 
@@ -502,7 +504,6 @@ body::-webkit-scrollbar {
         cursor: pointer;
     }
 
-
     .header_container img{
         width: 90px;
     }
@@ -705,17 +706,6 @@ h3{
 
     /* z-index: 9999; */
 }
-
-.elh2{
-    display: block;
-    color: black;
-    margin-top: 55px;
-    border: 1px black solid;
-    font-size: 18px;
-}
-
-
-
 
 
 
