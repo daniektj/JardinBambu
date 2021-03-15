@@ -621,7 +621,7 @@ body::-webkit-scrollbar {
     width: 260px;
     height: 260px;
     padding: 20px 10px;
-    justify-content: center;
+    justify-content: space-between;
     /* border: 2px orchid solid; */
 }
 
@@ -648,6 +648,22 @@ body::-webkit-scrollbar {
     margin-top: 40px;
     text-align: center;
     font-size: .85rem;
+}
+
+.oro{
+    order: 1;
+}
+
+.plata{
+    order: 2;
+}
+
+.platino{
+    order: 3;
+}
+
+.diamante{
+    order: 4;
 }
 
 /* ---------- SERVICIOS (SECTION_03) ---------- */
