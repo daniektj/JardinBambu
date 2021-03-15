@@ -156,6 +156,19 @@ header{
     z-index: 3;
 }
 
+.bamboo-02{
+    width: 317px;
+    height: 228px;
+    background: url('../images/bamboos-02.svg') no-repeat center;
+    background-size: cover;
+    z-index: 4;
+    /* border: 1px orangered solid; */
+
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+
 
 .swiper-container {
     width: 100vw;
@@ -179,7 +192,20 @@ header{
 .swiper-slide img{
     width: 100%;
     object-fit: cover;
-    border: 1px red solid;
+    /* border: 1px red solid; */
+}
+
+.--slide_title{
+    width: 50%;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.85);
+    text-align: center;
+    position: absolute;
+    top: 30%
+  
+    /* border: 1px red solid */;
 }
 
 
@@ -532,6 +558,15 @@ body::-webkit-scrollbar {
         height: 100px;
     }
 
+    .bamboo-02{
+        width: 200px;
+        height: 143px;
+    
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+    }
+
     .swiper-container {
         max-height: 85vh;
         /* border: 2px red solid; */
@@ -540,6 +575,8 @@ body::-webkit-scrollbar {
     .swiper-slide img{
         height: 100%;
     }
+
+
 
 
 /* ---------- PAQUETES (SECTION_02) ---------- */
