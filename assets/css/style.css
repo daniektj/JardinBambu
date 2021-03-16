@@ -52,7 +52,6 @@ h2{
 .grid-container {
     display: grid;
     grid-template-columns: 100vw;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
     gap: 0px 0px;
     grid-template-areas:
       "header"
@@ -74,7 +73,7 @@ h2{
 /* ---------- HEADER ---------- */
 
 header{
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 41.46%, rgba(0, 0, 0, 0.48) 77.4%, rgba(0, 0, 0, 0.08) 100%);
     margin: auto;
     z-index: 2;
@@ -87,14 +86,15 @@ header{
 }
 
 .header_container{
-    width: 100vw;
-    /* max-width: 1440px; */
+    min-width: 1100px;
+    max-width: 1440px;
     height: 80px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 50px;
+    box-sizing: border-box;
 /*     border: 1px red solid; */
 }
 
@@ -118,7 +118,7 @@ header{
     color: var(--green);
 }
 
-/* ---------- SLIDE ---------- */
+/* ---------- HERO SLIDE ---------- */
 
 .section_01{
     max-height: 70vh;
@@ -147,13 +147,14 @@ header{
 .oval{
     position: absolute;
     left: -5%;
-    bottom: -100px;
+    bottom: -95px;
 
     width: 110%;
     height: 150px;
     border-radius: 100%;
     background: #111111;
     z-index: 3;
+    
 }
 
 .bamboo-01{
