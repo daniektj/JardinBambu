@@ -706,6 +706,7 @@ body::-webkit-scrollbar {
 
 .--service{
     height: auto;
+    /* flex: 1 0 33%;  */
 }
 
 
@@ -806,9 +807,13 @@ h3{
 
 
 
+@media (max-width: 600px) {
 
+    .--service{
+        flex: 1 0 33%; 
+    }
 
-
+}
 
 
 
