@@ -46,3 +46,19 @@ boton.onclick = () => {
     boton.style.setProperty('background-image', `url('assets/images/mobile-menu-open.svg')`);
     
 }
+
+// SCROLL POSITION and DISPLAY CONDITION OF THE HOME BUTTON.
+let home = document.querySelector('.back_to_home');
+  
+window.addEventListener("scroll", () => { 
+
+  var scroll_y = this.scrollY; 
+  /* console.log(parseInt(scroll_y));  */
+
+  if(scroll_y > 300){
+   home.style.setProperty('display', `inline`)
+  } else {
+    home.style.setProperty('display', `none`)
+  }
+  
+}); 

@@ -12,6 +12,7 @@ html {
 }
 
 .back_to_home{
+    display: none;
     width: 35px;
     height: 35px;
     background: url(../images/up-arrow.svg) no-repeat center rgba(255, 255, 255, 0.25);
