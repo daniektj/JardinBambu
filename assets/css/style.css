@@ -38,6 +38,7 @@ body{
     background: #111111;
     color: white;
     font-family: var(--font_default);
+    overflow-x: hidden;
 }
 
 h2{
@@ -532,6 +533,13 @@ body::-webkit-scrollbar {
         z-index: 10;
     }
 
+    .header_container{
+        min-width: 250px;
+        width: 100vw;
+        /* border: 1px red solid; */
+    }
+
+
     .header_menu a{
         display: none;
     }
@@ -713,6 +721,7 @@ body::-webkit-scrollbar {
 
 .gallery_container{
     width: 90vw;
+    max-width: 600px;
     justify-content: center;
     gap: 25px;
     /* border: 1px orchid solid; */
