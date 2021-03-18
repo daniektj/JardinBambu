@@ -2,6 +2,7 @@ var swiper = new Swiper('.swiper-container', {
     lazy: true,
     spaceBetween: 30,
     centeredSlides: true,
+    loop: true,
     effect: 'fade',
     speed: 2000,
     autoplay: {
