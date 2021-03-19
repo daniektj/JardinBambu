@@ -631,7 +631,7 @@ body::-webkit-scrollbar {
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    border: 1px orchid solid; 
+    /* border: 1px orchid solid;  */
 }
 
 .card{
@@ -640,6 +640,7 @@ body::-webkit-scrollbar {
     padding: 20px 10px;
     justify-content: space-between;
     margin-right: 10px;
+    margin-bottom: 10px;
     /* border: 2px orchid solid; */
 }
 
