@@ -740,6 +740,7 @@ body::-webkit-scrollbar {
 .image{
     width: 150px;
     height: 100px;
+    margin: 5px 5px;
 }
 
 
