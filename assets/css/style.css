@@ -245,8 +245,8 @@ header{
 .cards_container{
     display: flex;
     align-items: flex-end;
-    grid-gap: 10px;
     gap: 10px;
+    grid-gap: 10px;
 }
 
 .cards{
