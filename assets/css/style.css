@@ -245,8 +245,7 @@ header{
 .cards_container{
     display: flex;
     align-items: flex-end;
-    gap: 10px;
-    grid-gap: 10px;
+    /* gap: 10px; */
 }
 
 .cards{
@@ -269,6 +268,8 @@ header{
     align-items: center;
 
     box-sizing: border-box;
+    /* border: 1px red solid; */
+    margin-right: 10px;
 }
 
 .card_big{
