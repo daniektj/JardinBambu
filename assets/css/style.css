@@ -639,6 +639,7 @@ body::-webkit-scrollbar {
     height: 260px;
     padding: 20px 10px;
     justify-content: space-between;
+    margin-right: 10px;
     /* border: 2px orchid solid; */
 }
 
