@@ -641,7 +641,7 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     margin-right: 10px;
     margin-bottom: 10px;
-    /* border: 2px orchid solid; */
+    border: 2px orchid solid;
 }
 
 .card_big{
