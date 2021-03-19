@@ -631,7 +631,7 @@ body::-webkit-scrollbar {
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    /* border: 1px orchid solid;  */
+    border: 1px orchid solid; 
 }
 
 .card{
