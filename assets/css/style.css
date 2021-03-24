@@ -250,13 +250,14 @@ header{
 
 .cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* border: 1px red solid; */
 }
 
 
 .card{
     width: 260px;
-    height: 330px;
+    height: 325px;
     background: white;
     padding: 40px 10px;
     border-radius: 10px;
@@ -264,17 +265,19 @@ header{
     box-sizing: content-box;
 
     display: flex;
+    /* flex-wrap: nowrap; */
     flex-direction: column;
     align-items: center;
 
     box-sizing: border-box;
     /* border: 1px red solid; */
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .card_big{
     width: 260px;
     height: 370px;
+    margin: 0 10px;
 }
 
 .card_name{
@@ -301,13 +304,19 @@ header{
 }
 
 .--paquetes_description{
+    color: var(--black);
+    line-height: 1.4;
     margin: auto;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style-type: none;
-    /* border: 1px var(--black) solid; */
+   /*  border: 1px var(--black) solid; */
+}
+
+.--paquetes_description :nth-child(odd){
+    font-weight: 700;
 }
 
 .--paquetes_price{
@@ -321,14 +330,14 @@ header{
     font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
-    background: var(--black);
+    background: var(--green);
     color: var(--white);
     padding: 8px 30px;
-    border: 2px var(--black) solid;
+    /* border: 2px var(--black) solid; */
 }
 .--paquetes_details:hover{
-    background: var(--white);
-    color: var(--dark);
+    background: var(--black);
+    color: var(--white);
     transition: background .2s ease-in;
 }
 
@@ -398,11 +407,12 @@ header{
     height: 100px;
     color: var(--black);
     text-align: center;
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 .--service img{
     width: 100px;
+    height: 100px;
 }
 
 
@@ -627,10 +637,10 @@ body::-webkit-scrollbar {
 }
 
 .cards_container{
-    width: 80vw;
+    width: 85vw;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-evenly;
+    /* gap: 25px; */
     /* border: 1px orchid solid;  */
 }
 
@@ -639,19 +649,37 @@ body::-webkit-scrollbar {
     height: 260px;
     padding: 20px 10px;
     justify-content: space-between;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-bottom: 10px;
     /* border: 2px orchid solid; */
 }
 
+/* .card{
+    width: 260px;
+    height: 325px;
+    background: white;
+    padding: 40px 10px;
+    border-radius: 10px;
+    color: black;
+    box-sizing: content-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+} */
+
 .card_big{
     width: 260px;
     height: 260px;
+    margin: 0px 0px;
+    margin-bottom: 10px;
 }
 
 .--paquetes_description{
     font-size: .85rem;
-    margin-bottom: 10px;
+    /* margin-bottom: 0px; */
 }
 
 .--paquetes_price{
@@ -670,11 +698,11 @@ body::-webkit-scrollbar {
 }
 
 .oro{
-    order: 1;
+    order: 2;
 }
 
 .plata{
-    order: 2;
+    order: 1;
 }
 
 .platino{
@@ -814,8 +842,11 @@ h3{
 /* FIN DEL BREAKPOINT */
 }
 
-
-
+@media (max-width: 925px) {
+    .card{
+        width: 200px;
+    }
+}
 
 
 @media (max-width: 600px) {
@@ -824,9 +855,11 @@ h3{
         flex: 1 0 33%; 
     }
 
+    .card{
+        width: 260px;
+    }
+
 }
-
-
 
 
 

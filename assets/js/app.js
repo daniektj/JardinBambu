@@ -63,3 +63,33 @@ window.addEventListener("scroll", () => {
   }
   
 }); 
+
+
+//localstorage
+// SET = Guardar
+// GET = Obtener
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+let data = localStorage.getItem('nombreUsuario');
+
+if(data){
+  alert(`tu nombre es ${data.toUpperCase()}`)
+} else {
+  const nombre = prompt("pon un nombre");
+  localStorage.setItem('nombreUsuario', nombre);
+}
+ */
+
